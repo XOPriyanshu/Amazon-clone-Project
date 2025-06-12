@@ -3,10 +3,10 @@ import 'package:sneaker_shop/components/shoe.dart';
 class Cart extends ChangeNotifier{
   //list of items
   List<Shoes> shoeshop=[
-    Shoes(description: "High Hills", image: "lib/images/n1m.jpg", name: "Air Jorden", price: "400"),
-    Shoes(description: "Dizzle's", image: "lib/images/n2m.jpg", name:"Zoom FREAK", price: "100"),
-    Shoes(description: "Bajinga", image: "lib/images/n1m.jpg", name: "Sneaker", price: "200"),
-    Shoes(description: "Gentel", image: "lib/images/n2m.jpg", name: "Air4 Pro", price: "120"),
+    Shoes(description: "High Hills", image: "lib/images/p1.webp", name: "Air Jorden", price: "400"),
+    Shoes(description: "Dizzle's", image: "lib/images/p2.webp", name:"Zoom FREAK", price: "100"),
+    Shoes(description: "Bajinga", image: "lib/images/p5.webp", name: "Sneaker", price: "200"),
+    Shoes(description: "Gentel", image: "lib/images/p4.webp", name: "Air4 Pro", price: "120"),
   ];
   //users cart
 List<Shoes> usercart=[];

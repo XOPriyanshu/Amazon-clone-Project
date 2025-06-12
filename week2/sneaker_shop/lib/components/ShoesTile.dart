@@ -8,7 +8,7 @@ class ShoesTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      // padding: EdgeInsets.all(10),
+      // padding: EdgeInsets.symmetric(horizontal: 12),
       margin: EdgeInsets.all(25),
       height: 200,
       width: 270,
@@ -21,7 +21,7 @@ class ShoesTile extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Image.asset(shoes.image,
-          width: 300,
+          width: 250,
           height: 250,
           fit:BoxFit.contain,
 

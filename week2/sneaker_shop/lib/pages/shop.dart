@@ -26,7 +26,7 @@ class _ShopState extends State<Shop> {
           children: [
             Container(
               padding: EdgeInsets.all(12),
-              margin: EdgeInsets.symmetric(horizontal: 18),
+              margin: EdgeInsets.symmetric(horizontal: 10),
               decoration: BoxDecoration(color: Colors.white,borderRadius: BorderRadius.circular(7)),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -38,10 +38,13 @@ class _ShopState extends State<Shop> {
             ),
             Padding(padding: EdgeInsets.symmetric(vertical: 25.0),
               child: Text("everyone flies.. some fly longer than others", style:TextStyle(color: Colors.grey[600],letterSpacing: 1.3),),),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              crossAxisAlignment: CrossAxisAlignment.end,
-              children: [Text("Hot Picks 🔥",style: TextStyle(fontSize: 24,fontWeight: FontWeight.bold),),Text("See all",style: TextStyle(color: Colors.blue),)],),
+            Padding(
+              padding: EdgeInsets.symmetric(horizontal: 10),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                crossAxisAlignment: CrossAxisAlignment.end,
+                children: [Text("Hot Picks 🔥",style: TextStyle(fontSize: 24,fontWeight: FontWeight.bold),),Text("See all",style: TextStyle(color: Colors.blue),)],),
+            ),
             SizedBox(height: 10),
             Expanded(
               child:ListView.builder(
